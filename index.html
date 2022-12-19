@@ -1,1 +1,376 @@
-<h1>hello world</h1>
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Portafolio de Juan Caravantes Algaba</title>
+</head>
+
+<body class="font-cascadia-code">
+
+    <!-- Seccion inicial -->
+
+    <div class=" h-1/2 lg:h-screen sm:h-screen bg-gradient-to-t from-zinc-400 relative overflow-hidden">
+
+        <!-- Navbar -->
+
+        <nav id="navbar" class="w-full fixed top-0 bg-white z-10">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div id="Logo" class=" scr flex items-center gap-2">
+                    <img src="/img/Logo2.png" alt="logo">
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-800 font-bold text-sm">
+                    <li class="hover:text-lime-500">
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li class="hover:text-lime-500">
+                        <a href="#sobreMi">Sobre mi</a>
+                    </li>
+                    <li class="hover:text-lime-500">
+                        <a href="#skills">Habilidades</a>
+                    </li>
+                    <li class="hover:text-lime-500">
+                        <a href="#LeTec">Lenguajes y Tecnologías</a>
+                    </li>
+                    <li class="hover:text-lime-500">
+                        <a href="#intereses">Cosas de Interes</a>
+                    </li>
+                    <li class="hover:text-lime-500">
+                        <a href="#redes">Redes</a>
+                    </li>
+                </ul>
+                <div id="display" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu"
+                    class="hidden bg-lime-300 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-black text-center">
+                    <li>
+                        <a id="menuLink" href="#inicio">Inicio</a>
+                    </li>
+                    <li>
+                        <a id="menuLink" href="#sobreMi">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a id="menuLink" href="#skills">Habilidades</a>
+                    </li>
+                    <li>
+                        <a id="menuLink" href="#LeTec">Lenguajes y Tecnologías</a>
+                    </li>
+                    <li>
+                        <a id="menuLink" href="#intereses">Cosas de Interes</a>
+                    </li>
+                    <li>
+                        <a id="menuLink" href="#redes">Redes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- circulo -->
+
+        <div class="absolute -left-96 lg:block mx-auto w-big h-big bg-lime-300 rounded-full"></div>
+
+        <!-- imagen TI -->
+
+        <img src="/img/TIgreen.png" alt="Juan Caravantes"
+            class="absolute bottom-0 right-0 left-1/2 mx-auto object-cover h-2/3">
+
+        <!-- texto animado -->
+
+        <div class=" absolute top-1/4 text-xl sm:left-15 sm:text-4xl md:right-1/3 md:text-6xl lg:left-5 xl:left-48 ">
+            <span class="text-zinc-900">Ingeniero Informático</span>
+            <p id="texto" class="text-lime-700 px-14"></p>
+        </div>
+
+
+
+        <!-- Inicio -->
+
+        <section id="inicio">
+            <div
+                class="hidden lg:flex flex-col absolute sm:top-2/3 rounded-md shadow-lg bottom-1/3 m-auto left-52 bg-white p-8 h-fit w-1/3">
+                <h1 class=" py-3 text-4xl font-bold text-lime-300">Soy Juan Caravantes</h1>
+                <p class="text-zinc-600 py-4">Soy estudiante de la <a class="text-lime-500 font-bold"
+                        href="https://esi.uclm.es">Escuela superior de Informática</a>, en la <a
+                        class="text-lime-500 font-bold" href="https://www.uclm.es">Universidad de Castilla la
+                        mancha</a>.
+                </p>
+                <a class="bg-lime-300 text-xl px-3 py-2 w-fit rounded-md font-semibold" href="#redes">Mis redes</a>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- Sobre mi -->
+
+    <section id="sobreMi">
+        <div class="px-10">
+            <div class="py-40 container mx-auto flex flex-col-reverse lg:flex-row gap-12">
+
+                <!-- foto -->
+
+                <div class="relative">
+                    <img class="h-full rounded-full " src="/img/mySelf.png" alt="Juan Caravantes">
+                </div>
+
+                <!-- info -->
+
+                <div class="my-auto flex flex-col gap-3">
+                    <h1 class="text-lime-400 py-3 text-4xl font-bold">Sobre Mí</h1>
+                    <p>Hola, soy Juan. Tengo 21 años y estoy a punto de entrar en el mundo laboral. Soy un chico muy
+                        energético y risueño, sé trabajar en equipo, puedo controlar el estrés en situaciones dificiles
+                        y soy disciplinado.
+                        Amo la ciberseguridad, quiero aprender todo lo que pueda sobre ese ámbito y poder dedicarme a
+                        ello en el futuro.
+                        Quiero ayudar a aquellas personas que no se sienten seguras en el mundo de la informática,
+                        ayudar a empresas e individuos para que su información esté segura y protegida. Eso es lo que
+                        quiero
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="px-10 text-center bg-gradient-to-t from-zinc-400 relative">
+            <div class="py-40 container mx-auto flex-col-reverse lg:flex-row gap-12">
+                <h1 class="text-lime-500 py-12 text-4xl font-bold">Habilidades</h1>
+                <div class="mx-auto flex flex-col gap-3">
+                    <ul
+                        class="hidden container md:flex items-center justify-between text-gray-800 font-bold space-x-10 text-sm py-4 sm:flex">
+
+                        <li>
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-20" src="/img/teamwork.png" alt="Trabajo en equipo">
+                                <p>Trabajo en <br> equipo</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/Discipline.png" alt="Disciplina">
+                                <p>Disciplina y <br> seguridad</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/Analisis.png" alt="Analisis">
+                                <p>Capacidad de análisis <br />rápido bajo presión</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/Speak.png" alt="Hablar">
+                                <p class="text-center">Capacidad de hablar <br> en público</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/autoAprendizaje.png" alt="Aprender">
+                                <p class="text-center">Auto aprendizaje</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Lenguajes y tecnologías -->
+
+    <section id="LeTec">
+        <div class="px-10 text-center">
+            <div class="py-40 container mx-auto flex-col-reverse lg:flex-row gap-12">
+                <h1 class="text-lime-400 py-12 text-4xl font-bold">Lenguajes y tecnologías</h1>
+
+                <!-- Lenguajes -->
+
+                <div class="mx-auto flex flex-col gap-3">
+                    <h2 class="text-zinc-600 py-3 text-2xl font-bold">Lenguajes</h2>
+                    <ul
+                        class="hidden container md:flex items-center justify-between text-gray-800 font-bold space-x-10 text-sm py-4 sm:flex">
+
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/c.png" alt="C/C++">
+                                <a href="https://cplusplus.com">C/C++</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/java.png" alt="Java">
+                                <a href="https://www.java.com/es/">Java</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/Python.png" alt="Python">
+                                <a href="https://www.python.org">Python</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/c2.png" alt="C#">
+                                <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">C#</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/matlab.png" alt="Matlab">
+                                <a href="https://es.mathworks.com/products/matlab.html">Matlab</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/angular.png" alt="Angular">
+                                <a href="https://angular.io">Angular</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Tecnologías -->
+
+                <div class="mx-auto flex flex-col gap-3">
+                    <h2 class="text-zinc-600 py-3 text-2xl font-bold">Tecnologías</h2>
+                    <ul
+                        class="hidden container md:flex items-center justify-between text-gray-800 font-bold space-x-10 text-sm py-4 sm:flex ">
+
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-20" src="/img/openssl.png" alt="OpenSSL">
+                                <a href="https://www.openssl.org">OpenSSL</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/ps.png" alt="Prestashop">
+                                <a href="https://www.prestashop.com/es">Prestashop</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-14" src="/img/kali.png" alt="Kali Linux">
+                                <a href="https://www.kali.org">Kali Linux</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/maven.png" alt="Maven">
+                                <a href="https://maven.apache.org">Maven</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-16" src="/img/nodejs.png" alt="Nodejs">
+                                <a href="https://nodejs.org/es/">Nodejs</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- cosas de interes  -->
+
+
+    <section id="intereses">
+        <div class="px-10 text-center bg-gradient-to-t from-zinc-400 relative">
+            <div class="py-40 container mx-auto flex-col-reverse lg:flex-row gap-12">
+
+                <div class="mx-auto flex flex-col gap-3">
+                    <h1 class="text-lime-500 py-12 text-4xl font-bold">Cosas de interes</h1>
+
+                    <!-- Idiomas -->
+
+                    <div class="mx-auto flex flex-col gap-3">
+                        <h2 class="text-zinc-600 py-3 text-2xl font-bold">Idiomas</h2>
+                        <ul
+                            class="hidden container md:flex items-center justify-between text-gray-800 font-bold space-x-10 sm:flex-row text-sm py-4 sm:flex">
+                            <li class="hover:text-lime-500">
+                                <div class="scr flex items-center gap-2 sm:py-5">
+                                    <img class="w-20" src="/img/cambridge.png" alt="Ingles">
+                                    <a href="https://www.cambridgeenglish.org/es/">Inglés B1 - Certificado Cambridge</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Formacion Complementaria -->
+                    <div class="mx-auto flex flex-col gap-3">
+                        <h2 class="text-zinc-600 py-3 text-2xl font-bold">Formación Complementaria</h2>
+                        <ul
+                            class="hidden container md:flex items-center justify-between text-gray-800 font-bold space-x-10 text-sm py-4 sm:flex">
+                            <li class="hover:text-lime-500">
+                                <div class="scr flex items-center gap-2 sm:py-5">
+                                    <img class="w-20" src="/img/udemy.png" alt="Master">
+                                    <a
+                                        href="https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/">Master
+                                        en JavaScript: Aprender JS, <br> jQuery, Angular, NodeJS</a>
+                                </div>
+                            </li>
+                            <li class="hover:text-lime-500">
+                                <div class="scr flex items-center gap-2 sm:py-5">
+                                    <img class="w-20" src="/img/udemy.png" alt="Hacking">
+                                    <a
+                                        href="https://www.udemy.com/course/curso-completo-de-hacking-etico-y-ciberseguridad/">Curso
+                                        completo de Hacking <br> Ético y Ciberseguridad</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- redes -->
+
+
+    <section id="redes">
+        <div class="px-10 text-center bg-gradient-to-t">
+            <div class="py-40 container mx-auto flex-col-reverse lg:flex-row gap-12">
+
+                <div class="mx-auto flex flex-col gap-3">
+                    <h1 class="text-lime-400 py-12 text-4xl font-bold">Redes</h1>
+                    <div class="mx-auto flex flex-col gap-3">
+                    <ul
+                        class="hidden container md:flex items-center justify-between text-gray-800 font-bold space-x-10 text-sm py-4 sm:flex">
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-20" src="/img/linkedin.png" alt="Ingles">
+                                <a href="https://www.linkedin.com/in/juan-caravantes-algaba-a525b8252">LinkedIn</a>
+                            </div>
+                        </li>
+                        <li class="hover:text-lime-500">
+                            <div class="scr flex items-center gap-2 sm:py-5">
+                                <img class="w-20" src="/img/github.png" alt="Ingles">
+                                <a href="https://github.com/JuanCaravantes">GitHub</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="/js/app.js""></script>
+    <script src="/js/autotyping.js"></script>
+</body>
+
+</html>
